@@ -12,6 +12,12 @@
 	"activationEvents": [
 		"onLanguage:html"
 	],
+	"contributes": {
+		"commands": [{
+				"command": "extension.setTranslationFile",
+				"title": "Set translation file"
+		}]
+	},
 	"main": "./out/extension.js",
 	"scripts": {
 		"vscode:prepublish": "npm run compile",
